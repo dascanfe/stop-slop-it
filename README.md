@@ -29,6 +29,8 @@ E l'italiano ha tic che l'inglese non ha:
 
 stop-slop-it parte dalle regole originali e le riscrive per chi scrive in italiano.
 
+Le regole di stop-slop, il punteggio, la tabella dei tic italiani e quando conviene lasciare la skill da parte sono raccontati per esteso nell'articolo [Stop Slop: la skill di Claude che toglie ai testi l'odore di AI](https://www.dascanfe.com/it/blog/stop-slop-claude-skill.html).
+
 ## Prima e dopo
 
 | Prima | Dopo |
@@ -129,3 +131,5 @@ Basata su [stop-slop](https://github.com/hardikpandya/stop-slop) di Hardik Pandy
 ## English
 
 **stop-slop-it** is the Italian version of [stop-slop](https://github.com/hardikpandya/stop-slop), a skill that removes AI writing patterns from prose. The original rules target English; this version rewrites them for Italian and adds patterns specific to the language, such as the impersonal "si", nominalization ("effettuare una verifica" instead of "verificare") and English calques. It works with Claude and with any assistant that supports the [Agent Skills](https://agentskills.io) standard. MIT licensed.
+
+More on the rules, the scoring and how to adapt the skill to other languages: [Stop Slop: the Claude skill that removes AI writing tells](https://www.dascanfe.com/blog/stop-slop-claude-skill.html).
