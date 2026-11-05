@@ -59,7 +59,17 @@ Ogni testo riceve anche un punteggio da 1 a 10 su cinque dimensioni (direzione, 
 
 ## Installazione
 
-### Claude Code
+### Con un comando
+
+Funziona con Claude Code, Cursor, GitHub Copilot, Codex, Gemini CLI e gli altri assistenti compatibili con Agent Skills:
+
+```bash
+npx skills add dascanfe/stop-slop-it
+```
+
+Serve Node.js. Il comando chiede in quali assistenti installarla e se tenerla in un solo progetto o renderla disponibile ovunque (globale).
+
+### Claude Code, senza Node.js
 
 Clona il repository tra le tue skill personali:
 
@@ -79,7 +89,7 @@ Serve l'esecuzione del codice attiva nelle impostazioni. Sui piani Enterprise le
 
 ### Altri assistenti
 
-Cursor, GitHub Copilot, VS Code, ChatGPT e le altre piattaforme compatibili con Agent Skills leggono la stessa cartella: segui la loro documentazione per importarla. In alternativa, copia le regole di [SKILL.md](SKILL.md) nelle istruzioni personalizzate di qualunque assistente.
+Se il tuo assistente non compare nell'elenco del comando, segui la sua documentazione per importare la cartella. In alternativa, copia le regole di [SKILL.md](SKILL.md) nelle istruzioni personalizzate di qualunque assistente.
 
 ## Come si usa
 
@@ -131,5 +141,7 @@ Basata su [stop-slop](https://github.com/hardikpandya/stop-slop) di Hardik Pandy
 ## English
 
 **stop-slop-it** is the Italian version of [stop-slop](https://github.com/hardikpandya/stop-slop), a skill that removes AI writing patterns from prose. The original rules target English; this version rewrites them for Italian and adds patterns specific to the language, such as the impersonal "si", nominalization ("effettuare una verifica" instead of "verificare") and English calques. It works with Claude and with any assistant that supports the [Agent Skills](https://agentskills.io) standard. MIT licensed.
+
+Install it with `npx skills add dascanfe/stop-slop-it`.
 
 More on the rules, the scoring and how to adapt the skill to other languages: [Stop Slop: the Claude skill that removes AI writing tells](https://www.dascanfe.com/blog/stop-slop-claude-skill.html).
